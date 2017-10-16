@@ -7,14 +7,14 @@
 # Guest ID, Free energy, free energy SEM, free energy method error, enthalpy, enthalpy SEM, enthalpy method uncertainty
 # The list of predictions must begin with the "Predictions:" keyword, as illustrated here.
 Predictions:
-TEMOA-G0,     4.90 ,, 0.64  ,,,
-TEMOA-G1,     8.20 ,, 0.32  ,,,
-TEMOA-G2,     1.47 ,, 0.86  ,,,
-TEMOA-G3,     5.56 ,, 0.34  ,,,
-TEMOA-G4,    12.73 ,, 0.43  ,,,
-TEMOA-G5,     4.46 ,, 0.46  ,,,
-TEMOA-G6,     6.76 ,, 0.51  ,,,
-TEMOA-G7,     1.57 ,, 1.79  ,,,
+TEMOA-G0,     -4.90 ,, 0.64  ,,,
+TEMOA-G1,     -8.20 ,, 0.32  ,,,
+TEMOA-G2,     -1.47 ,, 0.86  ,,,
+TEMOA-G3,     -5.56 ,, 0.34  ,,,
+TEMOA-G4,    -12.73 ,, 0.43  ,,,
+TEMOA-G5,     -4.46 ,, 0.46  ,,,
+TEMOA-G6,     -6.76 ,, 0.51  ,,,
+TEMOA-G7,     -1.57 ,, 1.79  ,,,
 #
 # Please provide an informal yet informative name of the method used.
 # The "Name:" keyword is required, as shown here.
