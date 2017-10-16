@@ -68,6 +68,5 @@ direct space.  SHAKE constraints were applied to bonds involving
 hydrogen, and the simulation was integrated using a five step RESPA
 integrator as described in DOI:10.1021/jp960295w.  Error on DG
 (gaussian unbiased estimate) was computed by bootstrapping samples of
-40 works out of teh collection of 400 and computing the DG=<w> -
-beta*<sigma_w^2>/2.
+40 works out of the collection of 400.
 
