@@ -73,4 +73,3 @@ hydrogen, and the simulation was integrated using a five step RESPA
 integrator as described in DOI:10.1021/jp960295w.  Error on DG
 (Gaussian unbiased estimate) was computed by bootstrapping samples of
 40 works out of the collection of 400.
-
