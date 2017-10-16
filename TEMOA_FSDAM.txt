@@ -55,18 +55,22 @@ charges.  All carboxylate groups were assumed to be deprotonated. No
 counterions were used.  A background neutralizing plasma was assumed
 within the PBC Ewald method (PME). Each system was solvated with ~1300
 in a cubic box of ~34 sidelenght. A finite size correction due to 
-net charges has been calculated as described in DOI: 10.1063/1.477788.   
+net charges has been calculated as described in DOI: 10.1063/1.477788. 
+The binding site volume Vsite in the standard state correction was 
+computed for each host-guest system by analyzing the oscillation of the
+vector connecting the centers of mass of the guest and of the host, 
+evaluated in the intertia frame of the host.
   
-Production simulations were run in the NPT ensemble, with temperature
+Production simulations, both in the REST and FS-DAM stage, 
+were run in the NPT ensemble, with temperature
 control (T=298 K) using Nose-Hoover thermostat and pressure control
-(P=1 atm) provided a Parrinello-Rhaman barostat with cubic
+(P=1 atm) provided by a Parrinello-Rhaman barostat with cubic
 constraints. Direct space nonbonded interactions were truncated with a
 13.0 Angstrom cutoff, whereas long-range electrostatics were handled
-with the PME method using alpha=0.37 and 1 Angs grid spacing in the
+with the PME method using alpha=0.37 Angs-1 and 1 Angs grid spacing in the
 direct space.  SHAKE constraints were applied to bonds involving
 hydrogen, and the simulation was integrated using a five step RESPA
 integrator as described in DOI:10.1021/jp960295w.  Error on DG
-(gaussian unbiased estimate) was computed by bootstrapping samples of
-40 works out of teh collection of 400 and computing the DG=<w> -
-beta*<sigma_w^2>/2.
+(Gaussian unbiased estimate) was computed by bootstrapping samples of
+40 works out of the collection of 400.
 
