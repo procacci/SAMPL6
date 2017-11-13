@@ -39,11 +39,11 @@ switching double annihilation method with no restraints.  (doi:
 10.1039/c5cp05521k). In the REST stage (Replica exchange with solute
 tempering) we scaled the torsional ad 14 non bonded interactions of
 the solute (host+guest) up to 0.1 (i.e. 3000 K) using 8 replicas with
-the scaling protocol descrived in 10.1002/jcc.21388. Average exchange
+the scaling protocol described in 10.1002/jcc.21388. Average exchange
 rate was 30%. The REST simulations lasted (per replica state) 30 ns
-sampling about 400 configurations for the bound host-gues state and
+sampling about 400 configurations for the bound host-guest state and
 for the free guest.  In the bound state, a weak COM-COM harmonic
-tethering potential (k=0.02 kcal mol-1 Angs^2 ) was imposed to prevent
+tethering potential (k=0.0266 kcal mol-1 Angs^2 ) was imposed to prevent
 the guest to drifting off in the solvent. In the FS-DAM stage, the
 guest, both in the bound and unbound state, was annihilated in 0.36 ns
 in 400 independent annihilation trajectories starting form the points
@@ -55,17 +55,17 @@ doi: 10.1021/acs.jcim.7b00145) .  Primadorac uses GAFF2 and AM1/BCC
 charges.  All carboxylate groups were assumed to be deprotonated. No
 counterions were used.  A background neutralizing plasma was assumed
 within the PBC Ewald method (PME). Each system was solvated with ~1300
-in a cubic box of ~34 sidelenght. A finite size correction due to 
+water molecules in a cubic box of ~34 sidelenght. A finite size correction due to 
 net charges has been calculated as described in DOI: 10.1063/1.477788.   
   
-Production simulations were run in the NPT ensemble, with temperature
+Production REM and FS-DAM simulations were run in the NPT ensemble, with temperature
 control (T=298 K) using Nose-Hoover thermostat and pressure control
 (P=1 atm) provided a Parrinello-Rhaman barostat with cubic
 constraints. Direct space nonbonded interactions were truncated with a
 13.0 Angstrom cutoff, whereas long-range electrostatics were handled
 with the PME method using alpha=0.37 and 1 Angs grid spacing in the
 direct space.  SHAKE constraints were applied to bonds involving
-hydrogen, and the simulation was integrated using a five step RESPA
+hydrogen atoms, and the simulation was integrated using a five step RESPA
 integrator as described in DOI:10.1021/jp960295w.  Error on DG
 (gaussian unbiased estimate) was computed by bootstrapping samples of
 40 works out of the collection of 400.
